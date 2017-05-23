@@ -1,0 +1,60 @@
+body {
+  background-color: crimson;
+  color: white;
+  font-family: 'Arial';
+  font-size: 14px;
+}
+
+#container {
+  width: 53%;
+  background: lightseagreen;
+  margin: 20px auto;
+  overflow: auto;
+  padding: 40px 50px;
+}
+
+header {
+  text-align: center;
+  border-bottom: #fff dashed 1px;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+header p {
+  margin-top: 5px;
+}
+
+section {
+  min-height: 400px;
+}
+
+#results h3 {
+  background-color: crimson;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+#results h3 span {
+  background-color: crimson;
+}
+
+input[type="submit"] {
+    background-color: crimson;
+    border: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: lightcoral;
+}
+
+footer {
+  text-align: center;
+}
